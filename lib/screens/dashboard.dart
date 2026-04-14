@@ -32,10 +32,10 @@ class _DashboardState extends State<Dashboard> {
     return Scaffold(
       backgroundColor: Colors.white,
 
-      // 🔥 MAIN CONTENT
+     
       body: screens[currentIndex],
 
-      // 🔥 FLOATING TWEET BUTTON
+   
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: const Color(0xFF1DA1F2),
@@ -43,7 +43,7 @@ class _DashboardState extends State<Dashboard> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
 
-      // 🔥 CLEAN BOTTOM NAV BAR
+   
       bottomNavigationBar: Container(
         height: 65,
         decoration: const BoxDecoration(
